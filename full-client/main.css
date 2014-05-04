@@ -1,0 +1,59 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tower {
+    position: absolute;
+    width: 6px;
+    bottom: 20%;
+    height: 60px;
+    margin-left: -3px;
+    background-color: gray;
+}
+
+.disk.c1, .tower.tower1 {left: 25%;}
+.disk.c2, .tower.tower2 {left: 50%;}
+.disk.c3, .tower.tower3 {left: 75%;}
+
+.disk {
+    position: absolute;
+    height: 10px;
+    bottom: 20%;
+    z-index: 2;
+    transition: 0.5s;
+}
+.disk.disk1 {
+    width: 40px;
+    margin-left: -20px;
+    background-color: red;
+}
+.disk.disk2 {
+    width: 60px;
+    margin-left: -30px;
+    background-color: green;
+}
+.disk.disk3 {
+    width: 80px;
+    margin-left: -40px;
+    background-color: purple;
+}
+.disk.disk4 {
+    width: 100px;
+    margin-left: -50px;
+    background-color: yellow;
+}
+.disk.l1 {margin-bottom: 0;}
+.disk.l2 {margin-bottom: 12px;}
+.disk.l3 {margin-bottom: 24px;}
+.disk.l4 {margin-bottom: 36px;}
+.disk.lINF {margin-bottom: 80px;}
+
+#test {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+}
